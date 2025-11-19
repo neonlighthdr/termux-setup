@@ -15,7 +15,6 @@ sleep 2
 
 pkg install -y x11-repo
 pkg install -y tur-repo
-pkg install -y termux-x11
 pkg install -y pulseaudio
 pkg install -y termux-x11-nightly
 pkg install -y proot-distro
