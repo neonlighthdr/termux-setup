@@ -6,9 +6,11 @@ pkg update
 
 # update installed package but keep configuration
 pkg upgrade -y -o Dpkg::Options::="--force-confold"
+sleep 2
 
 # idk
 pkg install -y x11-repo tur-repo
+sleep 2
 # idk
 pkg install -y curl wget git nano proot-distro termux-x11 pulseaudio
 # idk 
