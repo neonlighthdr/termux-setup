@@ -4,6 +4,7 @@ clear
 
 sleep 2
 curl -L https://github.com/neonlighthdr/termux-setup/raw/refs/heads/main/change-repo/termux-fastest-repo | bash
+clear
 pkg update
 clear
 sleep 3
