@@ -7,8 +7,8 @@ pkg update
 sleep 2
 
 # update installed package but keep configuration
-## pkg upgrade -y -o Dpkg::Options::="--force-confold"
-#sleep 1
+pkg upgrade -y -o Dpkg::Options::="--force-confold"
+sleep 1
 
 # idk
 pkg install -y tur-repo && pkg install -y x11-repo
