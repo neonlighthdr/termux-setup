@@ -11,14 +11,14 @@ pkg upgrade -y -o Dpkg::Options::="--force-confold"
 sleep 1
 
 # idk
-pkg install -y x11-repo tur-repo
-sleep 2
-# idk
-pkg install -y curl wget git nano 
-pkg install -y proot-distro pulseaudio
+pkg install -y tur-repo
+###
+pkg install -y x11-repo
+###
+pkg install -y curl wget git nano proot-distro termux-x11 pulseaudio
 sleep 1
 # idk 
-pkg install termux-x11 && pkg install -y termux-x11-nightly
+pkg install -y termux-x11-nightly
 
 clear
 
