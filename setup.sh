@@ -1,7 +1,7 @@
 #!/bin/sh
 #idk
 termux-setup-storage
-curl -L https://raw.githubusercontent.com/Prime-TITAN-CameraMan/Termux-Stuffs/main/bin/termux-fastest-repo | bash
+curl -L https://github.com/neonlighthdr/termux-setup/raw/refs/heads/main/change-repo/termux-fastest-repo | bash
 pkg update
 
 # update installed package but keep configuration
