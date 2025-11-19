@@ -1,15 +1,16 @@
 sleep 3
-clear
 termux-setup-storage
+clear
 
 sleep 2
 curl -L https://github.com/neonlighthdr/termux-setup/raw/refs/heads/main/change-repo/termux-fastest-repo | bash
-clear
 pkg update
+clear
 sleep 3
 
 # idk
 pkg upgrade -y -o Dpkg::Options::="--force-confold"
+clear
 sleep 2
 
 pkg install -y x11-repo
